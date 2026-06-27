@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "admis-security-sdk"
+version = "0.1.0-preview"
+description = "Pre-execution authorization SDK for AI agents"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "ADMIS Labs" }]
+license = { text = "Proprietary preview package. Demo code for private evaluation only." }
+keywords = ["ai security", "agents", "zero trust", "authorization", "tool calls", "runtime governance"]
+dependencies = []
+
+[project.scripts]
+admis = "admis.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["admis*"]

@@ -1,0 +1,11 @@
+# ADMIS Security SDK preview policy
+# Demo-only.
+name: demo_finance
+version: 2026.06.preview
+purpose: Finance-oriented preview for autonomous trading, wire transfers, treasury operations, and audit receipts.
+required_controls:
+  - strong_identity
+  - action_scope
+  - policy_context
+  - decision_receipt
+  - audit_logging

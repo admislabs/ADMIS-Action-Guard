@@ -1,0 +1,11 @@
+# ADMIS Security SDK preview policy
+# Demo-only.
+name: demo_healthcare
+version: 2026.06.preview
+purpose: Healthcare-oriented preview for PHI access, sensitive data movement, and approval workflows.
+required_controls:
+  - identity_verification
+  - data_classification
+  - minimum_necessary_scope
+  - destination_policy
+  - audit_receipt

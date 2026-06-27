@@ -1,0 +1,19 @@
+# ADMIS Security SDK preview policy
+# Demo-only. Do not use these values or structures as production thresholds.
+name: demo_default
+version: 2026.06.preview
+purpose: Balanced local preview for agent action authorization.
+mode_recommendation: simulate
+notes:
+  - Production risk weights, thresholds, and policy compilation are intentionally not included.
+  - This file demonstrates policy shape only.
+outcomes:
+  - ALLOW
+  - ALLOW_WITH_LOGGING
+  - ALLOW_WITH_CONSTRAINTS
+  - STEP_UP_AUTH
+  - ESCALATE
+  - QUARANTINE
+  - BLOCK
+  - EMERGENCY_ABORT
+  - REQUIRE_CONTEXT

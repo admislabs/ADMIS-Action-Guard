@@ -1,0 +1,12 @@
+# ADMIS Security SDK preview policy
+# Demo-only. Do not use as production scoring logic.
+name: demo_strict
+version: 2026.06.preview
+purpose: Strict local preview for sensitive data, privileged actions, and external destinations.
+mode_recommendation: simulate_then_enforce
+redacted_from_public_preview:
+  - production_thresholds
+  - risk_weights
+  - policy_compiler_rules
+  - enterprise_risk_ontology
+  - model_and_tool_telemetry_features
